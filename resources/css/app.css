@@ -1,0 +1,11 @@
+/* @import './template/font-icons.css';
+@import './template/plugins.css';
+@import './template/responsive.css';
+@import './template/style.css'; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
