@@ -26,9 +26,10 @@
 </head>
 <body>
      @inertia
+     {{-- քոմենտել եմ որովհետև կպցրել եմ  app.js wum  --}}
 
-    <!-- All JS Plugins -->
-    {{-- <script src="{{ asset('/assets/js/plugins.js') }}"></script>
+    {{-- <!-- All JS Plugins -->
+    <script src="{{ asset('/assets/js/plugins.js') }}"></script>
     <!-- Main JS -->
     <script src="{{ asset('/assets/js/main.js') }}"></script> --}}
 
