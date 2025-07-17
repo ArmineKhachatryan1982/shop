@@ -26,7 +26,7 @@
 </head>
 <body>
      @inertia
-     {{-- քոմենտել եմ որովհետև կպցրել եմ  app.js wum  --}}
+     {{-- քոմենտել եմ որովհետև կպցրել եմ  app.js ում  --}}
 
     {{-- <!-- All JS Plugins -->
     <script src="{{ asset('/assets/js/plugins.js') }}"></script>

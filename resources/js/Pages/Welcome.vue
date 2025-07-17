@@ -1,4 +1,5 @@
 <script setup>
+import { Head, Link } from '@inertiajs/vue3';
 
 
 </script>
@@ -155,7 +156,10 @@
                                                         <li><a href="checkout.html">Checkout</a></li>
                                                         <li><a href="order-tracking.html">Order Tracking</a></li>
                                                         <li><a href="account.html">My Account</a></li>
-                                                        <li><a href="login.html">Sign in</a></li>
+                                                        <li>
+                                                            <Link :href="route('login')">Sign in</Link>
+                                                            <!-- <a href="login.html">Sign in</a> -->
+                                                            </li>
                                                         <li><a href="register.html">Register</a></li>
                                                     </ul>
                                                 </li>
@@ -237,8 +241,12 @@
                                 <li>
                                     <a href="#"><i class="icon-user"></i></a>
                                     <ul>
-                                        <li><a href="login.html">Sign in</a></li>
-                                        <li><a href="register.html">Register</a></li>
+                                        <li>
+                                            <Link :href="route('login')">Sign in</Link>
+                                        </li>
+                                        <li>
+                                             <Link :href="route('register')">Register</Link>
+                                        </li>
                                         <li><a href="account.html">My Account</a></li>
                                         <li><a href="wishlist.html">Wishlist</a></li>
                                     </ul>
